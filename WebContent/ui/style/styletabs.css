@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+
+#body {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+#div-tabs-project {
+	height: 65vh;
+	width: 33%;
+	color: black;
+	font-size: 21px;
+	font-family: Agency FB;
+	float: left;
+	padding-top: 17px;
+	text-align: center;
+	background-color: white;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#div-tabs-build {
+	margin-left: 4px;
+	height: 65vh;
+	color: black;
+	font-size: 21px;
+	font-family: Agency FB;
+	float: left;
+	width: 33%;
+	padding-top: 17px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	background-color: #E1E6EC;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: gray;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: gray;
+}
+
+#div-tabs-release {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: gray;
+	height: 65vh;
+	color: black;
+	font-size: 21px;
+	font-family: Agency FB;
+	float: right;
+	width: 33%;
+	padding-top: 17px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	background-color: #E1E6EC;
+}
+
+#div-tabs-project:HOVER {
+	cursor: pointer;
+}
+
+#div-tabs-build:HOVER {
+	cursor: pointer;
+}
+
+#div-tabs-release:HOVER {
+	cursor: pointer;
+}

@@ -1,0 +1,162 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	height: 100%;
+}
+
+#div-cornerleft {
+	background: #202020;
+	width: 6%;
+	height: 100%;
+	float: left;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+#div-cornerright {
+	margin-top: -10px;
+	margin-right: -10px;
+	background: #202020;
+	width: 6%;
+	height: 100%;
+	float: right;
+}
+
+#div-headermain {
+	float: left;
+	background-color: gray;
+	margin-top: -10px;
+	width: 880px;
+}
+
+.div-header {
+	float: left;
+	height: 50px;
+	width: 160px;
+	color: white;
+	text-align: center;
+	padding-top: 20PX;
+	margin-top: -10px;
+}
+
+#div-maincontent {
+	background-color: white;
+	height: 100%;
+	width: 66%;
+	float: left;
+	/* padding-right: 3px; */
+}
+
+/**************************** DIV Project CSS CODE ***********************/
+#div-project {
+	float: left;
+	display: block;
+	width: 100%;
+	/* padding-right: 3px; */
+}
+
+.div-list-project {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	color: #2980B9;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	height: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.div-list-project:HOVER {
+	background-color: #2980B9;
+	cursor: pointer;
+	color: white;
+}
+
+/**************************** DIV Project CSS CODE Ends ***********************/
+
+/**************************** DIV Task CSS CODE *******************************/
+#div-task {
+	display: none;
+}
+
+/**************************** DIV Task CSS CODE ENDS **************************/
+#div-center {
+	background: #2A2A2A;
+	width: 22%;
+	height: 100%;
+	float: left;
+	margin-top: -10px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+}
+
+.div-list {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	color: #2980B9;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	height: 40px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.div-list:HOVER {
+	background-color: #2980B9;
+	cursor: pointer;
+	color: white;
+}
+
+#divid1 {
+	padding-top: 35px;
+	text-align: center;
+}
+
+#h4name {
+	padding-top: 20px;
+	font-size: 28px;
+	font-family: Agency FB;
+	color: white;
+	text-align: center;
+}
+
+#h6name {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-family: sans-serif;
+	color: gray;
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	color: white;
+}
+
+.div-navigation-frame {
+	height: 10px;
+	padding-left: 5px;
+	background-color: gray;
+	text-align: center;
+	color: white;
+}
+
+.div-navigation-frame:HOVER {
+	background-color: #2980B9;
+	cursor: pointer;
+	color: white;
+}

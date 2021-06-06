@@ -1,0 +1,34 @@
+.div-list-project {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: gray;
+	color: #2980B9;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	height: auto;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 84%;
+}
+
+.div-list-project-panel {
+	text-align: center;
+	width: 15%;
+	float: right;
+}
+
+.panelbutton {
+	width: 50%;
+	height: 30px;
+}
+
+.div-list-project:HOVER {
+	background-color: #2980B9;
+	cursor: pointer;
+	color: white;
+}

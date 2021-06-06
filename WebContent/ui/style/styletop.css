@@ -1,0 +1,17 @@
+#heading {
+	text-align: center;
+}
+
+#heading-text {
+	float: right;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+.img-circle {
+	float: left;
+	height: 50px;
+	width: 50px;
+}

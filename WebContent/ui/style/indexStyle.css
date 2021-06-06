@@ -1,0 +1,16 @@
+div.left {
+	position: relative;
+	float: left;
+	width: 300px;
+	padding: 3em 0em;
+	/* width: 250px;
+height: 1000px;
+background-color: black;
+color: yellow; */
+}
+
+div.margin {
+	background-color: red;
+	width: 100px;
+	height: 100px
+}
